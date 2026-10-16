@@ -1,0 +1,25 @@
+
+/* Import Tailwind CSS v4 utilities and base styles. */
+@import "tailwindcss";
+
+/* Enable smooth scrolling when navigating between sections. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Use consistent sizing across all elements. */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove the browser's default body spacing. */
+body {
+  margin: 0;
+}
+
+/* Respect users who prefer reduced animation. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
